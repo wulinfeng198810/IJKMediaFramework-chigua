@@ -1,0 +1,42 @@
+{
+  "name": "IJKMediaFramework-chigua",
+  "version": "0.1.0",
+  "summary": "IJKMediaFramework-chigua openssl framework",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wulinfeng/IJKMediaFramework-chigua",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wulinfeng": "1486634154@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wulinfeng198810/IJKMediaFramework-chigua.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreVideo",
+    "MediaPlayer",
+    "MobileCoreServices",
+    "OpenGLES",
+    "QuartzCore",
+    "UIKit",
+    "VideoToolbox"
+  ],
+  "libraries": [
+    "z",
+    "bz2",
+    "c++"
+  ],
+  "vendored_frameworks": [
+    "IJKMediaFramework-chigua/Classes/IJKMediaFramework.framework"
+  ]
+}

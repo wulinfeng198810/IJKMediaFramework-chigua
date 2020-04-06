@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C39090245E6FE3EC818501B64FE6F7DF /* IJKMediaFramework-chigua */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 142DFA55A85B812DF4F8612180A1DD2D /* Build configuration list for PBXAggregateTarget "IJKMediaFramework-chigua" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "IJKMediaFramework-chigua";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3A0548425B4397B0708CA44E8A57B3CD /* Pods-IJKMediaFramework-chigua_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 381EEB9F207F9CA924197B6B4F2AFA25 /* Pods-IJKMediaFramework-chigua_Tests-dummy.m */; };
+		3A16F5BFC1864A689E57E32F92F44BB5 /* Pods-IJKMediaFramework-chigua_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 764A6B6E71F48207E02EF07008DED3E4 /* Pods-IJKMediaFramework-chigua_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA23BFA3E38FEFD9F5E4264BD1F1A59B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC0193E93EA17EC608CE220B5A7F1C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39090245E6FE3EC818501B64FE6F7DF;
+			remoteInfo = "IJKMediaFramework-chigua";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0116EAA62EB6AD3C5335FBC772DD8192 /* IJKMediaFramework-chigua.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IJKMediaFramework-chigua.xcconfig"; sourceTree = "<group>"; };
+		02F4B601BC386580C00F823BFDD7B67E /* Pods-IJKMediaFramework-chigua_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IJKMediaFramework-chigua_Tests.modulemap"; sourceTree = "<group>"; };
+		1545A9BEB40CC0E79E90CE46BDEEAF39 /* IJKMediaFramework-chigua.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "IJKMediaFramework-chigua.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26D604D87FCF27DF1DB224DC80770DC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		275C8539B6431DC300DCE406FDD88E32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		381EEB9F207F9CA924197B6B4F2AFA25 /* Pods-IJKMediaFramework-chigua_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IJKMediaFramework-chigua_Tests-dummy.m"; sourceTree = "<group>"; };
+		48C917EE23BA2AE759B15D9B457A1F2C /* Pods-IJKMediaFramework-chigua_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IJKMediaFramework-chigua_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F2D9ADE6B241A4A4730AA3586D9FF4C /* Pods_IJKMediaFramework_chigua_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IJKMediaFramework_chigua_Tests.framework; path = "Pods-IJKMediaFramework-chigua_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		764A6B6E71F48207E02EF07008DED3E4 /* Pods-IJKMediaFramework-chigua_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IJKMediaFramework-chigua_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7FABA687C1FC26E631EA418209D9A8EE /* Pods-IJKMediaFramework-chigua_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IJKMediaFramework-chigua_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		894B99B5D98E3F863F34E900CCAB39E6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = "IJKMediaFramework-chigua/Classes/IJKMediaFramework.framework"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C262715B61F5CDDB74BD9A839DB9437D /* Pods-IJKMediaFramework-chigua_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IJKMediaFramework-chigua_Tests-Info.plist"; sourceTree = "<group>"; };
+		C67E3321F90D481FA66CC65FF31C1DCA /* Pods-IJKMediaFramework-chigua_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IJKMediaFramework-chigua_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8D5B161E900DDE88E1B299AA31B5FA2 /* Pods-IJKMediaFramework-chigua_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IJKMediaFramework-chigua_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD39D7F98D1A11FAE6FCB69C582C2E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA23BFA3E38FEFD9F5E4264BD1F1A59B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35913F83360D56B33499A6FC86FF1DEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0116EAA62EB6AD3C5335FBC772DD8192 /* IJKMediaFramework-chigua.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IJKMediaFramework-chigua";
+			sourceTree = "<group>";
+		};
+		36F219ACE03B1C479D6A059393834931 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1545A9BEB40CC0E79E90CE46BDEEAF39 /* IJKMediaFramework-chigua.podspec */,
+				275C8539B6431DC300DCE406FDD88E32 /* LICENSE */,
+				26D604D87FCF27DF1DB224DC80770DC6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		66F59345EB32C0377D965CF48FD1B4F6 /* Pods-IJKMediaFramework-chigua_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				02F4B601BC386580C00F823BFDD7B67E /* Pods-IJKMediaFramework-chigua_Tests.modulemap */,
+				C67E3321F90D481FA66CC65FF31C1DCA /* Pods-IJKMediaFramework-chigua_Tests-acknowledgements.markdown */,
+				E8D5B161E900DDE88E1B299AA31B5FA2 /* Pods-IJKMediaFramework-chigua_Tests-acknowledgements.plist */,
+				381EEB9F207F9CA924197B6B4F2AFA25 /* Pods-IJKMediaFramework-chigua_Tests-dummy.m */,
+				C262715B61F5CDDB74BD9A839DB9437D /* Pods-IJKMediaFramework-chigua_Tests-Info.plist */,
+				764A6B6E71F48207E02EF07008DED3E4 /* Pods-IJKMediaFramework-chigua_Tests-umbrella.h */,
+				48C917EE23BA2AE759B15D9B457A1F2C /* Pods-IJKMediaFramework-chigua_Tests.debug.xcconfig */,
+				7FABA687C1FC26E631EA418209D9A8EE /* Pods-IJKMediaFramework-chigua_Tests.release.xcconfig */,
+			);
+			name = "Pods-IJKMediaFramework-chigua_Tests";
+			path = "Target Support Files/Pods-IJKMediaFramework-chigua_Tests";
+			sourceTree = "<group>";
+		};
+		757B46049C0FA1F9B51B75CBEC3C714A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E123521C232AD02DA2A789B1AEDFC3CC /* IJKMediaFramework-chigua */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		79C6B655A423AAFCE0FE5F92FA920BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D9ADE6B241A4A4730AA3586D9FF4C /* Pods_IJKMediaFramework_chigua_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFF3CD1370E7F772826EC5237B8C128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				894B99B5D98E3F863F34E900CCAB39E6 /* IJKMediaFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F4CBE2D21E2544F065F7F7543502177 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F59345EB32C0377D965CF48FD1B4F6 /* Pods-IJKMediaFramework-chigua_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				757B46049C0FA1F9B51B75CBEC3C714A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				79C6B655A423AAFCE0FE5F92FA920BFE /* Products */,
+				9F4CBE2D21E2544F065F7F7543502177 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E123521C232AD02DA2A789B1AEDFC3CC /* IJKMediaFramework-chigua */ = {
+			isa = PBXGroup;
+			children = (
+				7AFF3CD1370E7F772826EC5237B8C128 /* Frameworks */,
+				36F219ACE03B1C479D6A059393834931 /* Pod */,
+				35913F83360D56B33499A6FC86FF1DEC /* Support Files */,
+			);
+			name = "IJKMediaFramework-chigua";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A3F65C5565761D1F4A3461E3B9DEB14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A16F5BFC1864A689E57E32F92F44BB5 /* Pods-IJKMediaFramework-chigua_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		146D7479454CCE58323B979E0A9B4823 /* Pods-IJKMediaFramework-chigua_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE597DE2063570FBBEB8ED09C9D200A /* Build configuration list for PBXNativeTarget "Pods-IJKMediaFramework-chigua_Tests" */;
+			buildPhases = (
+				2A3F65C5565761D1F4A3461E3B9DEB14 /* Headers */,
+				28B4BCA1DE0301D6B7C8C57E618325A8 /* Sources */,
+				DD39D7F98D1A11FAE6FCB69C582C2E5A /* Frameworks */,
+				831233A190AC04788C41CE0CDE7F2BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A36B040F7617F49566592383CD74837C /* PBXTargetDependency */,
+			);
+			name = "Pods-IJKMediaFramework-chigua_Tests";
+			productName = "Pods-IJKMediaFramework-chigua_Tests";
+			productReference = 4F2D9ADE6B241A4A4730AA3586D9FF4C /* Pods_IJKMediaFramework_chigua_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 79C6B655A423AAFCE0FE5F92FA920BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39090245E6FE3EC818501B64FE6F7DF /* IJKMediaFramework-chigua */,
+				146D7479454CCE58323B979E0A9B4823 /* Pods-IJKMediaFramework-chigua_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831233A190AC04788C41CE0CDE7F2BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B4BCA1DE0301D6B7C8C57E618325A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0548425B4397B0708CA44E8A57B3CD /* Pods-IJKMediaFramework-chigua_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A36B040F7617F49566592383CD74837C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IJKMediaFramework-chigua";
+			target = C39090245E6FE3EC818501B64FE6F7DF /* IJKMediaFramework-chigua */;
+			targetProxy = CC0193E93EA17EC608CE220B5A7F1C4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2717115D30FB61806BFC045EBD55DEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0116EAA62EB6AD3C5335FBC772DD8192 /* IJKMediaFramework-chigua.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CDE8661763825B33AC9F5664A4C7C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FABA687C1FC26E631EA418209D9A8EE /* Pods-IJKMediaFramework-chigua_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IJKMediaFramework-chigua_Tests/Pods-IJKMediaFramework-chigua_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IJKMediaFramework-chigua_Tests/Pods-IJKMediaFramework-chigua_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DB3D10350CE494EC62D8EF7296F64CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C917EE23BA2AE759B15D9B457A1F2C /* Pods-IJKMediaFramework-chigua_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IJKMediaFramework-chigua_Tests/Pods-IJKMediaFramework-chigua_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IJKMediaFramework-chigua_Tests/Pods-IJKMediaFramework-chigua_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC2E8A99121A21558B4C091E7882E14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0116EAA62EB6AD3C5335FBC772DD8192 /* IJKMediaFramework-chigua.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		142DFA55A85B812DF4F8612180A1DD2D /* Build configuration list for PBXAggregateTarget "IJKMediaFramework-chigua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2717115D30FB61806BFC045EBD55DEEA /* Debug */,
+				EC2E8A99121A21558B4C091E7882E14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE597DE2063570FBBEB8ED09C9D200A /* Build configuration list for PBXNativeTarget "Pods-IJKMediaFramework-chigua_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB3D10350CE494EC62D8EF7296F64CC /* Debug */,
+				7CDE8661763825B33AC9F5664A4C7C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

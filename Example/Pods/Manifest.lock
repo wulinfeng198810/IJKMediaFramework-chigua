@@ -1,0 +1,16 @@
+PODS:
+  - IJKMediaFramework-chigua (0.1.0)
+
+DEPENDENCIES:
+  - IJKMediaFramework-chigua (from `../`)
+
+EXTERNAL SOURCES:
+  IJKMediaFramework-chigua:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IJKMediaFramework-chigua: f9c424f8a36147cc9cc12a384f402a06c99f901e
+
+PODFILE CHECKSUM: 2f2f88d3ebb29593807c7bcb8e37045f3a783cfe
+
+COCOAPODS: 1.7.5

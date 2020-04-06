@@ -1,0 +1,7 @@
+use_frameworks!
+platform :ios, '9.0'
+target 'IJKMediaFramework-chigua_Tests' do
+  pod 'IJKMediaFramework-chigua', :path => '../'
+  
+  
+end
